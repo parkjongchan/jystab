@@ -1,0 +1,23 @@
+/** mixin & function */
+
+@mixin row($w: $rowWidth, $p: $padding) {
+  .row {
+    position: relative;
+    width: $w;
+    //min-height: 823px;
+    padding: $p;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@mixin font($f,$we) {
+  font-family: $f;
+  font-weight: $we;
+}
+
+@mixin clear {
+  clear: both;
+  display: block;
+  content: '';
+}

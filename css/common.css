@@ -1,0 +1,16 @@
+@import url("base.css");
+/** mixin & function */
+/* common_tab */
+.common_tab .tab_box01 { border-bottom: 1px solid #616161; *zoom: 1; }
+.common_tab .tab_box01:after { clear: both; display: block; content: ''; }
+.common_tab .tab_box01 ul.tab_list { float: left; *zoom: 1; }
+.common_tab .tab_box01 ul.tab_list:after { clear: both; display: block; content: ''; }
+.common_tab .tab_box01 ul.tab_list li { float: left; width: 129px; border-left: 1px solid #eaeaea; border-top: 1px solid #eaeaea; text-align: center; }
+.common_tab .tab_box01 ul.tab_list li.last { border-right: 1px solid #eaeaea; }
+.common_tab .tab_box01 ul.tab_list li a { position: relative; display: block; margin: -1px 0 0 -1px; padding: 11px 0; font-size: 12px; font-weight: bold; -webkit-transition: .5s; -moz-transition: .5s; -o-transition: .5s; -ms-transition: .5s; transition: .5s; }
+.common_tab .tab_box01 ul.tab_list li a:hover { background: #616161; color: #fff; }
+.common_tab .tab_box01 ul.tab_list li a.active { background: #616161; color: #fff; }
+.common_tab .tab_box02 .content { display: none; padding: 10px; }
+.common_tab .tab_box02 .content.active { display: block; }
+
+/*# sourceMappingURL=common.css.map */

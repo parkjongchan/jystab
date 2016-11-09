@@ -1,0 +1,64 @@
+@import url("base.css");
+@import 'mixin.scss';
+/* common_tab */
+.common_tab {
+  .tab_box01 {
+    border-bottom:1px solid #616161;
+    *zoom:1;
+    &:after {
+      @include clear;
+    }
+    ul.tab_list {
+      float:left;
+      *zoom:1;
+      &:after{
+        @include clear;
+      }
+      li {
+        float:left;
+        width:129px;
+        border-left:1px solid #eaeaea;
+        border-top:1px solid #eaeaea;
+        text-align:center;
+        &.last {
+          border-right:1px solid #eaeaea;
+        }
+        a {
+          position:relative;
+          display:block;
+          margin:-1px 0 0 -1px;
+          padding:11px 0;
+          font-size:12px;
+          font-weight:bold;
+          -webkit-transition:.5s;
+          -moz-transition:.5s;
+          -o-transition:.5s;
+          -ms-transition:.5s;
+          transition:.5s;
+          &:hover{
+            background:#616161;
+            color:#fff;
+          }
+          &.active {
+            background:#616161;
+            color:#fff;           
+          }
+        }
+      }
+    }
+    ul.select_list {
+      li {
+
+      }
+    }
+  }
+  .tab_box02{
+    .content {
+      display:none;
+      padding:10px;
+      &.active {
+        display:block;
+      }
+    }
+  }
+}
