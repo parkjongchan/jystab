@@ -1,5 +1,5 @@
 /**
- * name : jysSelectbox
+ * name : jysTab
  * make : parkjonghcan
  * version : 0.1
  * date : 2016.10.20
